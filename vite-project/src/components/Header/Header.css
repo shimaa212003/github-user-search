@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.website{
+    color: var(--text-color-two);
+    font-size: 26px;
+    line-height: 38.51px;
+}
+
+.theme-toggle{
+    color: var(--text-color-one);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 700px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.theme-toggle svg{
+    transform: scale(1.2);
+}
+
+.theme-toggle:hover {
+    color: var(--theme-toggle-hover-color);
+}
+
+.theme-toggle:hover svg path {
+    fill: var(--theme-toggle-hover-color);
+}
