@@ -28,7 +28,7 @@ export  const ThemeContext = createContext(null)
 
   return (
    
-      <div className={`App ${darkMode ? "dark" : "light"}`} >
+      <div className={`App ${darkMode ? "light" : "dark"}`} >
          <ThemeContext.Provider value={{darkMode, changeDarkMode}}>
           <main className="container">
               <Header  />
